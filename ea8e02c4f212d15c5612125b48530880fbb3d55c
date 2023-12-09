@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8fa89a26_7c1239a3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26658
+      },
+      "writtenOn": "2023-12-09T11:40:44Z",
+      "side": 1,
+      "message": "Running into\n```\nApplying change number 376568...\nERROR: For 376568, could not determine the project path for project LineageOS/android_external_webp\n```\neven though it seems that the repo exists for 17.1",
+      "revId": "ea8e02c4f212d15c5612125b48530880fbb3d55c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
