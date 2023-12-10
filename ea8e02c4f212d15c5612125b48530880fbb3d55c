@@ -16,6 +16,24 @@
       "message": "Running into\n```\nApplying change number 376568...\nERROR: For 376568, could not determine the project path for project LineageOS/android_external_webp\n```\neven though it seems that the repo exists for 17.1",
       "revId": "ea8e02c4f212d15c5612125b48530880fbb3d55c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "90e88a98_49af0824",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20587
+      },
+      "writtenOn": "2023-12-10T10:38:38Z",
+      "side": 1,
+      "message": "Sounds like you need https://review.lineageos.org/c/LineageOS/android/+/376556 and/or an update to your .repo/manifests/default.xml until that is merged",
+      "parentUuid": "8fa89a26_7c1239a3",
+      "revId": "ea8e02c4f212d15c5612125b48530880fbb3d55c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
