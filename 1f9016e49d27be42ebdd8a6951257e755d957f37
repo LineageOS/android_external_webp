@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "63432454_0549d7ac",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20587
+      },
+      "writtenOn": "2023-12-10T10:33:49Z",
+      "side": 1,
+      "message": "To cleanly apply this fix I had to cherry-pick a library update from e.g. 18.1 bundled in an own topic: https://review.lineageos.org/q/topic:%22prp-Q-for-CVE-2023-4863%22",
+      "revId": "1f9016e49d27be42ebdd8a6951257e755d957f37",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
