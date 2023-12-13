@@ -34,6 +34,23 @@
       "parentUuid": "c6669421_3b2d448c",
       "revId": "9a36cbd2fe78ac14100a53df5cf416cfcccf8ddf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "49bad82b_26f80d0f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26658
+      },
+      "writtenOn": "2023-12-13T17:30:29Z",
+      "side": 1,
+      "message": "Do we need to merge https://review.lineageos.org/c/LineageOS/android_external_webp/+/376871 as well? What else has been added outside of the abs topics we need?",
+      "revId": "9a36cbd2fe78ac14100a53df5cf416cfcccf8ddf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
