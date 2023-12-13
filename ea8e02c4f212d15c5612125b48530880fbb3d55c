@@ -34,6 +34,24 @@
       "parentUuid": "8fa89a26_7c1239a3",
       "revId": "ea8e02c4f212d15c5612125b48530880fbb3d55c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b47108fd_e16ad8ba",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26658
+      },
+      "writtenOn": "2023-12-13T17:28:00Z",
+      "side": 1,
+      "message": "In which order do they need to be synced?\nhttps://review.lineageos.org/c/LineageOS/android/+/376555 would overwrite it again if https://review.lineageos.org/c/LineageOS/android/+/376556 would be synced first and it fails the other way around as described.",
+      "parentUuid": "90e88a98_49af0824",
+      "revId": "ea8e02c4f212d15c5612125b48530880fbb3d55c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
