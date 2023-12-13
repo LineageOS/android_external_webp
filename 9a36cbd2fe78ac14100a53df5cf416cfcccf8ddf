@@ -16,6 +16,24 @@
       "message": "not sure if that is just me but the patch does not apply because:\n\nhttps://github.com/LineageOS/android_external_webp/blob/lineage-17.1/README.android\nhttps://github.com/LineageOS/android_external_webp/blob/lineage-17.1/README.version\n\nboth have:\n\n`Version: v1.0.2`\n\nand not what\u0027s expected by the patch (`v1.1.0`)",
       "revId": "9a36cbd2fe78ac14100a53df5cf416cfcccf8ddf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "15739548_a7022bef",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20587
+      },
+      "writtenOn": "2023-12-13T17:16:07Z",
+      "side": 1,
+      "message": "That\u0027s because this is part of a chain and another prior change updates it to 1.1.0 to prepare fixing the CVE: https://review.lineageos.org/c/LineageOS/android_external_webp/+/376871/1?usp\u003drelated-change",
+      "parentUuid": "c6669421_3b2d448c",
+      "revId": "9a36cbd2fe78ac14100a53df5cf416cfcccf8ddf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
