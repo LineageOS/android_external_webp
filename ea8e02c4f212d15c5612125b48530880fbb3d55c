@@ -52,6 +52,24 @@
       "parentUuid": "90e88a98_49af0824",
       "revId": "ea8e02c4f212d15c5612125b48530880fbb3d55c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dfaf366c_91a573a2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26658
+      },
+      "writtenOn": "2023-12-13T18:12:22Z",
+      "side": 1,
+      "message": "I partially take back the last comment. We can of course fetch the commits and overwrite `.repo/manifests/default.xml` and sync only the changes.\nThis then, however runs into the other issue mentioned here:\n```\nApplying change number 376568...\n--\u003e Subject:       \"update to v1.1.0-8-g50f60add\"\n--\u003e Project path:  external/webp\n--\u003e Change number: 376568 (Patch Set 2)\n[\u0027git fetch github\u0027, \u0027refs/changes/68/376568/2\u0027]\nremote: Enumerating objects: 123, done.\nremote: Counting objects: 100% (123/123), done.\nremote: Compressing objects: 100% (67/67), done.\nremote: Total 123 (delta 61), reused 102 (delta 54), pack-reused 0\nReceiving objects: 100% (123/123), 233.01 KiB | 2.95 MiB/s, done.\nResolving deltas: 100% (61/61), completed with 31 local objects.\nFrom https://github.com/LineageOS/android_external_webp\n * branch            refs/changes/68/376568/2 -\u003e FETCH_HEAD\nAuto-merging README.android\nCONFLICT (content): Merge conflict in README.android\nAuto-merging README.version\nCONFLICT (content): Merge conflict in README.version\nAuto-merging src/enc/backward_references_enc.c\nerror: could not apply 9a36cbd... update to v1.1.0-8-g50f60add\nhint: After resolving the conflicts, mark them with\nhint: \"git add/rm \u003cpathspec\u003e\", then run\nhint: \"git cherry-pick --continue\".\nhint: You can instead skip this commit with \"git cherry-pick --skip\".\nhint: To abort and get back to the state before \"git cherry-pick\",\nhint: run \"git cherry-pick --abort\".\nRecorded preimage for \u0027README.android\u0027\nRecorded preimage for \u0027README.version\u0027\nERROR: git command failed\n\n```\nThis is after syncing 376556, overwriting `default.xml`, and syncing `external/webp` and then syncing 376555, overwriting `default.xml`, and syncing `external/libcups` and then picking the topic.",
+      "parentUuid": "b47108fd_e16ad8ba",
+      "revId": "ea8e02c4f212d15c5612125b48530880fbb3d55c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
