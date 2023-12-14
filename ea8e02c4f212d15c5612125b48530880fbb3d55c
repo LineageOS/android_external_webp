@@ -70,6 +70,24 @@
       "parentUuid": "b47108fd_e16ad8ba",
       "revId": "ea8e02c4f212d15c5612125b48530880fbb3d55c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dd6893b7_64b25efc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20587
+      },
+      "writtenOn": "2023-12-14T17:39:14Z",
+      "side": 1,
+      "message": "376555 \u0026 376556 are independent changes of that file, for webp you need the latter but the other doesn\u0027t hurt\nAs with the merge issue: It is the same as in my reply to steadfasterX above: You need to pick the whole chain (Check \"Relation chain\" in Gerrit), i.e. this is commit number 7 which is to be applied after applying the other 6",
+      "parentUuid": "dfaf366c_91a573a2",
+      "revId": "ea8e02c4f212d15c5612125b48530880fbb3d55c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

@@ -51,6 +51,24 @@
       "message": "Do we need to merge https://review.lineageos.org/c/LineageOS/android_external_webp/+/376871 as well? What else has been added outside of the abs topics we need?",
       "revId": "9a36cbd2fe78ac14100a53df5cf416cfcccf8ddf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ffe0284b_5d0a8929",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20587
+      },
+      "writtenOn": "2023-12-14T17:39:14Z",
+      "side": 1,
+      "message": "Yes, see my other reply. The other 2 relevant topics are https://review.lineageos.org/q/topic:%22prp-Q-for-CVE-2023-4863%22 which is the preparation of the actual CVE fix in https://review.lineageos.org/q/topic:%22CVE-2023-4863%22",
+      "parentUuid": "49bad82b_26f80d0f",
+      "revId": "9a36cbd2fe78ac14100a53df5cf416cfcccf8ddf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
