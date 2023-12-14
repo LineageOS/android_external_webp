@@ -88,6 +88,24 @@
       "parentUuid": "dfaf366c_91a573a2",
       "revId": "ea8e02c4f212d15c5612125b48530880fbb3d55c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "08ff744f_3cbeb5c1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26658
+      },
+      "writtenOn": "2023-12-14T18:47:12Z",
+      "side": 1,
+      "message": "Call me stupid but when trying to pick in the following order\n```\n...\n# 2023-10\nrepopick -f 376554 || exit 1\ncp -v ./android/default.xml ./.repo/manifests/ || exit 1\nrepo sync -v -j 1 -c --no-tags --no-clone-bundle --force-sync --fail-fast 2\u003e\u00261 external/libxml2 2\u003e\u00261 || exit 1\nrepopick -f -t Q_asb_2023-10 || exit 1\n# CVE\nrepopick -f -t prp-Q-for-CVE-2023-4863 || exit 1\nrepopick -f 376556 || exit 1\ncp -v ./android/default.xml ./.repo/manifests/ || exit 1\nrepo sync -v -j 1 -c --no-tags --no-clone-bundle --force-sync --fail-fast 2\u003e\u00261 external/webp || exit 1\nrepopick -f -t CVE-2023-4863 || exit 1\n# 2023-11\nrepopick -f 376555 || exit 1\ncp -v ./android/default.xml ./.repo/manifests/ || exit 1\nrepo sync -v -j 1 -c --no-tags --no-clone-bundle --force-sync --fail-fast 2\u003e\u00261 external/libcups || exit 1\nrepopick -f -t Q_asb_2023-11 || exit 1\n```\nI get\n```\n...\n\nApplying change number 369703...\n--\u003e Subject:       \"Fix vulnerability in CallRedirectionService.\"\n--\u003e Project path:  packages/services/Telecomm\n--\u003e Change number: 369703 (Patch Set 1)\n[\u0027git fetch github\u0027, \u0027refs/changes/03/369703/1\u0027]\nFrom https://github.com/LineageOS/android_packages_services_Telecomm\n * branch              refs/changes/03/369703/1 -\u003e FETCH_HEAD\n\nApplying change number 376554...\nSkipping 376554 - already picked in android as HEAD~0\nApplying change number 376565...\nERROR: For 376565, could not determine the project path for project LineageOS/android_external_webp\n```",
+      "parentUuid": "dd6893b7_64b25efc",
+      "revId": "ea8e02c4f212d15c5612125b48530880fbb3d55c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
