@@ -106,6 +106,24 @@
       "parentUuid": "dd6893b7_64b25efc",
       "revId": "ea8e02c4f212d15c5612125b48530880fbb3d55c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3668388e_939d0e51",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20587
+      },
+      "writtenOn": "2023-12-15T19:59:57Z",
+      "side": 1,
+      "message": "According to your log and some guessing it seemingly fails for \"repopick -f -t prp-Q-for-CVE-2023-4863\" and the error says it can\u0027t find the project, referring to the fork.\n\nHence the manifest change needs to happen first as written earlier. So move picking 376556 and the sync before that or even safer: pick ALL manifest changes first and sync them before doing the rest to void the \"could not determine the project path for project LineageOS/*\" error",
+      "parentUuid": "08ff744f_3cbeb5c1",
+      "revId": "ea8e02c4f212d15c5612125b48530880fbb3d55c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
