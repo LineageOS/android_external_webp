@@ -82,6 +82,7 @@ cc_library_static {
         "src/mux/muxinternal.c",
         "src/mux/muxread.c",
         "src/utils/bit_writer_utils.c",
+        "src/utils/filters_utils.c",
         "src/utils/huffman_encode_utils.c",
         "src/utils/quant_levels_utils.c",
     ],
